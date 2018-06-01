@@ -11,19 +11,49 @@ body {
 }
 
 #wrapper {
-  background-color: skyblue;
+  background-color: white;
   width: 70%;
   margin: 0 auto;
 }
 
 #tittle {
-  color: white;
+  color: black;
   text-align: center;
   font-size: 70px;
   font-style: italic;
   font-family: fantasy;
   padding-bottom: 30px;
  }
+
+#section
+{
+  background-color: white;
+ }
+
+ .text{
+  text-align: justify;
+  color: black;
+  width: 70%;
+  padding: 2%;
+  margin-left: 15%;
+  margin-bottom: 1em;
+}
+
+.images {
+
+  width: 800px;
+  height: 600px;
+  margin-left: 19%;
+  border: 5px solid green;
+}
+
+.videos {
+
+  width: 800px;
+  height: 600px;
+  margin-left: 19%;
+  border: 5px solid green;
+}
 
 
 ul {
@@ -49,3 +79,10 @@ li a {
 li a:hover {
     background-color: gray;
 }
+
+
+/*
+<video width="320" height="240" controls>
+<source src="videos/robot1.mp4" type="video/mp4">
+</video>
+*/
