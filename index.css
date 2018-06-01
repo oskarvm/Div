@@ -30,6 +30,9 @@ body {
   background-color: white;
  }
 
+#footer {background-color: #333333; padding: 2%;}
+#footer p {color: white; font-size: Arial; padding: 2%;}
+
  .text{
   text-align: justify;
   color: black;
@@ -45,6 +48,7 @@ body {
   height: 600px;
   margin-left: 19%;
   border: 5px solid green;
+  margin-bottom: 3%;
 }
 
 .videos {
@@ -53,6 +57,7 @@ body {
   height: 600px;
   margin-left: 19%;
   border: 5px solid green;
+  float: left;
 }
 
 
@@ -80,9 +85,7 @@ li a:hover {
     background-color: gray;
 }
 
+.clearfix {
+        clear:both;
 
-/*
-<video width="320" height="240" controls>
-<source src="videos/robot1.mp4" type="video/mp4">
-</video>
-*/
+}
