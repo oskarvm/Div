@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-color: green;
+    color: white;
+}
+
+#wrapper {
+  background-color: skyblue;
+  width: 70%;
+  margin: 0 auto;
+}
+
+#tittle {
+  color: white;
+  text-align: center;
+  font-size: 70px;
+  font-style: italic;
+  font-family: fantasy;
+  padding-bottom: 30px;
+ }
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: gray;
+}
